@@ -1,0 +1,21 @@
+parameters:
+  - name: azsubscription
+    type: string
+
+steps:
+- task: AzureCLI@2
+  displayName: 'Deploy Azure Container App Revision'
+  inputs:
+    azureSubscription: '${{ parameters.azsubscription }}'
+    scriptType: ps
+    scriptLocation: inlineScript
+    inlineScript: 'az containerapp update -n $(CONTAINER_APP) -g $(RESOURCE_GROUP) -i $(REGISTRY)/$(IMAGE_NAME):$(Build.BuildId)'
+
+- task: AzurePowerShell@5
+  displayName: 'Site Warmup'
+  inputs:
+    azureSubscription: '${{ parameters.azsubscription }}'
+    ScriptType: 'FilePath'
+    ScriptPath: 'azpipelines/scripts/HealthCheck.ps1'
+    ScriptArguments: '-Url $(PUBLIC_URL)'
+    azurePowerShellVersion: 'LatestVersion'

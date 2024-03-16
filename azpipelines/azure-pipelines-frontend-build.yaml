@@ -1,0 +1,35 @@
+parameters:
+  - name: azsubscription
+    type: string
+  - name: container_registry
+    type: string
+
+steps:
+- task: Docker@2
+  displayName: 'Perform ACR Login'
+  inputs:
+    containerRegistry: '${{ parameters.container_registry }}'
+    command: login
+
+- task: DockerCompose@0
+  displayName: 'Run Docker Compose'
+  inputs:
+    containerregistrytype: 'Container Registry'
+    dockerRegistryEndpoint: '${{ parameters.container_registry }}'
+    dockerComposeFile: 'azpipelines/docker-compose.yaml'
+    dockerComposeCommand: build
+
+- bash: |
+   docker images
+   docker tag $(REGISTRY)/$(PROJECT_NAME)-rendering:$(PREPARED_VERSION) $(REGISTRY)/$(PROJECT_NAME)-rendering:$(Build.BuildId)
+  displayName: 'Check and Tag Image'
+
+- task: Docker@2
+  displayName: 'Perform Push For Built Image To ACR'
+  inputs:
+    containerRegistry: '${{ parameters.container_registry }}'
+    repository: '$(PROJECT_NAME)-rendering'
+    command: push
+    tags: |
+     $(Build.BuildId)
+     $(PREPARED_VERSION)

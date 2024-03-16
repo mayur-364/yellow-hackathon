@@ -1,0 +1,38 @@
+{
+  "namespace": "Feature.BlueYonder",
+  "references": ["Foundation.BlueYonder"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-Templates",
+        "path": "/sitecore/templates/Feature/blueyonder",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Feature-Renderings-blueyonder",
+        "path": "/sitecore/layout/Renderings/Feature/blueyonder",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Feature-Templates-Branches-blueyonder",
+        "path": "/sitecore/templates/Branches/Feature/blueyonder",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Feature-Settings-blueyonder",
+        "path": "/sitecore/system/Settings/Feature/blueyonder",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "BlueYonder.Foundation",
+      "@name": "Feature.BlueYonder"
+    }
+  }
+}

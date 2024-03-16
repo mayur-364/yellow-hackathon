@@ -1,0 +1,31 @@
+﻿---
+ID: "9d9e5be1-e399-4218-bff9-e4a36b3219b0"
+Parent: "5d7da26f-8d4b-4243-b25f-fdfea795f7a5"
+Template: "5d7da26f-8d4b-4243-b25f-fdfea795f7a5"
+Path: /sitecore/templates/Foundation/blueyonder/Base Fields/_Logo/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240207T112327Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7a3e3c4-a992-4f54-8c3f-a92bea53d934"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240207T112327Z

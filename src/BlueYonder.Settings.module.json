@@ -1,0 +1,12 @@
+{
+  "namespace": "Settings.BlueYonder",
+  "items": {
+    "includes": [
+      {
+        "name": "System-Languages",
+        "path": "/sitecore/system/Languages",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

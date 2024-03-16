@@ -1,0 +1,44 @@
+﻿---
+ID: "4a979807-9d75-4431-b4dc-09140cf22980"
+Parent: "be825819-e2ea-4e2d-a00f-75ffaaeca1c8"
+Template: "be825819-e2ea-4e2d-a00f-75ffaaeca1c8"
+Path: /sitecore/templates/Feature/blueyonder/Base Components/Footer/Footer/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {4E2C5D24-B802-4A6E-B8B4-A6BCD13266D4}
+    {EBE0A538-97C6-4B3B-868F-59A427B307E6}
+    {1256C3B2-AEF8-46D8-9CD1-1097AF29BF01}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240207T113231Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "adf98c30-dfe2-45b1-b50f-30b1d70d7f5b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240209T075100Z
+    - ID: "f25aa45e-3eb8-4f6a-873e-df369fb31ba9"
+      Hint: copyRightText
+      Value: "©{current_year} Blue Yonder, Inc. All rights reserved."

@@ -1,0 +1,35 @@
+{
+  "namespace": "Foundation.BlueYonder",
+  "items": {
+    "includes": [
+      {
+        "name": "Foundation-Templates",
+        "path": "/sitecore/templates/Foundation/blueyonder",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Foundation-JSS-Settings-Template",
+        "path": "/sitecore/templates/Foundation/JSS Experience Accelerator/Multisite/JSS Settings",
+        "scope": "singleItem",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Foundation-JSS-Layout",
+        "path": "/sitecore/layout/Layouts/Foundation/JSS Experience Accelerator/Presentation/JSS Layout",
+        "scope": "singleItem",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "blueyonderAPIkey",
+        "path": "/sitecore/system/Settings/Services/API Keys/blueyonderAPIkey",
+        "scope": "singleItem"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "BlueYonder.Foundation",
+      "@name": "Foundation.BlueYonder"
+    }
+  }
+}

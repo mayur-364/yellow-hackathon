@@ -1,0 +1,132 @@
+﻿---
+ID: "45681aae-4d7d-48d6-8bcc-b65dce3860be"
+Parent: "3f345be6-2a2d-4d1d-909d-6d2fbe7e4101"
+Template: "9a25e5df-b449-484c-9c3c-d3e03e7d6463"
+Path: /sitecore/content/blueyonder/corporate/Settings/CDN Settings
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240208T115121Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "6040f190-4f2b-4e0b-ac0e-9619caad0917"
+      Hint: cdnUrl
+      Value: "https://cdn.blueyonder.com/global/css/fonts.css"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a8c944e8-ef9b-481a-b346-606fbe17a067"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "c16fc3f7-8201-4e4d-93ab-6b52dc5e3cf3"
+      Hint: cdnCss
+      Value: |
+         :root{
+                    --custom-font-primary: 'Sectra';
+                    --custom-font-secondary: 'Accord';
+                  }
+                  .english {
+                     --custom-font-primary: 'Sectra';
+                    --custom-font-secondary: 'Accord';
+                  }
+                  .japanese {
+                    --custom-font: 'Meiryo UI';
+                  }
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240208T115202Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240208T115121Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "6040f190-4f2b-4e0b-ac0e-9619caad0917"
+      Hint: cdnUrl
+      Value: "https://cdn.blueyonder.com/global/css/fonts.css"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "185a8eef-1b02-41c8-8227-de756a860fc1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "c16fc3f7-8201-4e4d-93ab-6b52dc5e3cf3"
+      Hint: cdnCss
+      Value: |
+         :root{
+                    --custom-font-primary: 'Sectra';
+                    --custom-font-secondary: 'Accord';
+                  }
+                  .english {
+                     --custom-font-primary: 'Sectra';
+                    --custom-font-secondary: 'Accord';
+                  }
+                  .japanese {
+                    --custom-font: 'Meiryo UI';
+                  }
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240208T162109Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240208T115121Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "6040f190-4f2b-4e0b-ac0e-9619caad0917"
+      Hint: cdnUrl
+      Value: "https://cdn.blueyonder.com/global/css/fonts.css"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "60b0a6f5-3d9e-43fc-9ecc-4cfab5c3f5cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "c16fc3f7-8201-4e4d-93ab-6b52dc5e3cf3"
+      Hint: cdnCss
+      Value: |
+         :root{
+                    --custom-font-primary: 'Sectra';
+                    --custom-font-secondary: 'Accord';
+                  }
+                  .english {
+                     --custom-font-primary: 'Sectra';
+                    --custom-font-secondary: 'Accord';
+                  }
+                  .japanese {
+                    --custom-font: 'Meiryo UI';
+                  }
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240208T162042Z

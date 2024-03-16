@@ -1,0 +1,11 @@
+services:
+  fed:
+    image: ${REGISTRY}/${PROJECT_NAME}-rendering:${PREPARED_VERSION}
+    build:
+      context: ../src/blueyonder
+      args:
+        BASE_IMAGE: node:18
+        ARTIFACT_PATH: ${ARTIFACT_PATH}
+        PUBLIC_URL: ${PUBLIC_URL}
+        SITECORE_API_KEY: '${SITECORE_API_KEY}'
+        SITECORE_API_HOST: '${SITECORE_API_HOST}'      

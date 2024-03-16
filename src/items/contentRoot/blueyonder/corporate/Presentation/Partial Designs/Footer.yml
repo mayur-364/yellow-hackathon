@@ -1,0 +1,68 @@
+﻿---
+ID: "c6c72909-5b14-46dd-a6a9-8e648f1e8026"
+Parent: "1fce30b5-6c0c-413b-bd20-726cf9562796"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/blueyonder/corporate/Presentation/Partial Designs/Footer
+BranchID: "8204a950-cbaa-4d06-878b-11ced5ddc1ad"
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: footer
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{351D4870-AA3A-4126-B751-EF4644228110}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b09BD0A79-EF01-4768-A3BB-2FE88C9B161A%7d%7c%7b1FED2448-9852-4C37-AB59-CC26FA691167%7d%7c%7bEE9D0994-9F19-400D-9B4E-DCB5994127AA%7d%7c%7bC004F960-68AA-4F6C-BEA5-01A26228E96D%7d%7c%7b97F8082A-CC0D-4D3A-8959-1606B1F8E44B%7d%7c%7bAC9C15FA-3A74-4566-81F7-FB00F33BF6AE%7d%7c%7b0FE5818C-BC3A-469F-BECD-DA39CA0A2904%7d%7c%7bFD1E263B-8338-44A1-A691-CF4B0A8730E2%7d%7c%7bC8440EB1-5561-48B2-8928-212714418A16%7d%7c%7bD29D7925-C5F5-4CFF-BBFF-A0415298E33C%7d%7c%7bB8140939-53B5-4B2C-A596-446465E5779B%7d%7c%7b988DC30C-DC3F-4B38-B4E0-29ED72D84357%7d%7c%7b7A036FEB-CD2F-4D91-92A2-FB371194C4DF%7d%7c%7b7A46A21A-34EF-41E1-B6B3-1C3346FEFD61%7d%7c%7b0C18C3E3-AA4D-4A6C-A2A7-9159D2122EB8%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-footer" />
+        <r
+          uid="{1E153607-5881-4F8E-A525-76BBCE42BC45}"
+          p:after="r[@uid='{351D4870-AA3A-4126-B751-EF4644228110}']"
+          s:ds="local:/Data/Address"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bACC7F965-339E-4840-A63F-6B6C7624CDBC%7d&amp;FieldNames=%7bCBAB7F02-EDAB-422E-82BA-7FACC5B5C909%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+        <r
+          uid="{5C31F148-522E-48C9-A63F-AF1AB2D2DF9E}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Contact info"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?Styles=%7bACC7F965-339E-4840-A63F-6B6C7624CDBC%7d&amp;FieldNames=%7bCBAB7F02-EDAB-422E-82BA-7FACC5B5C909%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b31A49E90-E4B4-4F04-A3C7-E15B6835990F%7d"
+          s:ph="/headless-footer/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDB00EAA-5ACA-4C4D-8B88-3195D992F980}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240201T130538Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7ccf316-5938-4872-80c7-1f0a2175c30c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\varalakshmi.md@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240201T130544Z

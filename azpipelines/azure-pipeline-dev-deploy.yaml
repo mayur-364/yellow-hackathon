@@ -1,0 +1,45 @@
+name: $(BuildID)
+
+trigger: none
+
+stages:
+- stage: Build
+  jobs:
+  - deployment: Build
+    displayName: "Build FED Code"
+    environment: 'Dev'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'ubuntu-latest'
+    variables:
+    - group: 'FED Build Variables - DEV'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'self'
+          - template: 'azure-pipelines-frontend-build.yaml'
+            parameters:
+              azsubscription: ''
+              container_registry: devacr
+
+- stage: Deploy
+  jobs:
+  - deployment: Deploy
+    displayName: "Deploy Container Apps"
+    environment: 'Dev'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - group: 'FED Deploy Variables - DEV'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'self' 
+          - template: 'azure-pipelines-frontend-deploy.yaml'
+            parameters:
+              azsubscription: ''
