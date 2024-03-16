@@ -7,10 +7,7 @@ export const Section = (props: any): JSX.Element => {
   console.log('props', props);
   const hasPlaceholder = rendering?.placeholders;
   return (
-    <section
-      data-component="authorable/general/Section"
-      data-testid="Section"
-    >
+    <section data-component="authorable/general/Section" data-testid="Section">
       {hasPlaceholder && <Placeholder name="section-content" rendering={rendering} />}
     </section>
   );
