@@ -1,0 +1,38 @@
+{
+  "namespace": "Feature.team-yellow",
+  "references": ["Foundation.team-yellow"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-Templates",
+        "path": "/sitecore/templates/Feature/team-yellow",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Feature-Renderings-team-yellow",
+        "path": "/sitecore/layout/Renderings/Feature/team-yellow",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Feature-Templates-Branches-team-yellow",
+        "path": "/sitecore/templates/Branches/Feature/team-yellow",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Feature-Settings-team-yellow",
+        "path": "/sitecore/system/Settings/Feature/team-yellow",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "team-yellow.Base",
+      "@name": "Feature.team-yellow"
+    }
+  }
+}

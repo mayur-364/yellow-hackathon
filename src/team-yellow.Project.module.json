@@ -1,0 +1,44 @@
+{
+  "namespace": "Project.team-yellow",
+  "references": ["Foundation.team-yellow", "Feature.team-yellow"],
+  "items": {
+    "includes": [
+      {
+        "name": "Project-Templates",
+        "path": "/sitecore/templates/Project/team-yellow",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Project-Layouts-team-yellow",
+        "path": "/sitecore/layout/Layouts/Project/team-yellow",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Project-Renderings-team-yellow",
+        "path": "/sitecore/layout/Renderings/Project/team-yellow",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Project-Templates-Branches-team-yellow",
+        "path": "/sitecore/templates/Branches/Project/team-yellow",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      },
+      {
+        "name": "Project-PlaceholderSetting-team-yellow",
+        "path": "/sitecore/layout/Placeholder Settings/Project/team-yellow",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "database": "master"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "team-yellow.Base",
+      "@name": "Project.team-yellow"
+    }
+  }
+}

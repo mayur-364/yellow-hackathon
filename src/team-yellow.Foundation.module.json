@@ -1,10 +1,10 @@
 {
-  "namespace": "Foundation.BlueYonder",
+  "namespace": "Foundation.team-yellow",
   "items": {
     "includes": [
       {
         "name": "Foundation-Templates",
-        "path": "/sitecore/templates/Foundation/blueyonder",
+        "path": "/sitecore/templates/Foundation/team-yellow",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
@@ -28,8 +28,8 @@
   },
   "leprechaun": {
     "configuration": {
-      "@extends": "BlueYonder.Foundation",
-      "@name": "Foundation.BlueYonder"
+      "@extends": "team-yellow.Base",
+      "@name": "Foundation.team-yellow"
     }
   }
 }
