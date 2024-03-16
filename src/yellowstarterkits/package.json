@@ -1,10 +1,10 @@
 {
-  "name": "yellowstarterkits",
+  "name": "team-yellow",
   "description": "Application utilizing Sitecore JavaScript Services and Next.js",
   "version": "21.6.0",
   "private": true,
   "config": {
-    "appName": "yellowstarterkits",
+    "appName": "team-yellow",
     "rootPlaceholders": [
       "jss-main"
     ],

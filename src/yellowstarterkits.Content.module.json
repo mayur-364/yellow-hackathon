@@ -1,0 +1,65 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "team-yellow",
+  "items": {
+    "includes": [
+      {
+        "name": "content-TenantRoot",
+        "path": "/sitecore/content/team-yellow",
+        "scope": "singleItem"
+      },
+      {
+        "name": "content-Site-Shared",
+        "path": "/sitecore/content/team-yellow/shared"
+      },
+      {
+        "name": "content-SiteRoot-team-yellow",
+        "path": "/sitecore/content/team-yellow/team-yellow",
+        "scope": "singleItem"
+      },
+      {
+        "name": "content-SiteRoot-team-yellow-Home",
+        "path": "/sitecore/content/team-yellow/team-yellow/Home",
+        "scope": "singleItem"
+      },
+      {
+        "name": "content-SiteRoot-team-yellow-Media",
+        "path": "/sitecore/content/team-yellow/team-yellow/Media",
+        "scope": "singleItem"
+      },
+      {
+        "name": "content-SiteRoot-team-yellow-Data",
+        "path": "/sitecore/content/team-yellow/team-yellow/Data",
+        "scope": "ItemandChildren"
+      },
+      {
+        "name": "content-SiteRoot-team-yellow-Dictionary",
+        "path": "/sitecore/content/team-yellow/team-yellow/Dictionary"
+      },
+      {
+        "name": "content-SiteRoot-team-yellow-Presentation",
+        "path": "/sitecore/content/team-yellow/team-yellow/Presentation"
+      },
+      {
+        "name": "content-SiteRoot-team-yellow-Settings",
+        "path": "/sitecore/content/team-yellow/team-yellow/Settings"
+      },
+
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/team-yellow",
+        "scope": "singleItem"
+      },
+      {
+        "name": "media-Shared",
+        "path": "/sitecore/media library/Project/team-yellow/team-yellow",
+        "allowedPushOperations": "CreateOnly",
+        "scope": "ItemandChildren"
+      },
+      {
+        "name": "media-team-yellow",
+        "path": "/sitecore/media library/Project/team-yellow/shared"
+      }
+    ]
+  }
+}
