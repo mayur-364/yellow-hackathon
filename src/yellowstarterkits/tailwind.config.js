@@ -8,6 +8,11 @@ content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors:{
+        h1:{
+          fontSize:"60px",
+          fontFamily:"verdana"
+        },
+        
         primary:{
           midnightblue:{
             100: '#020C33',
