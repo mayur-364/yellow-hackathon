@@ -48,8 +48,8 @@ export const Tab = ({ fields }: TabProps): JSX.Element => {
               className="border p-4 rounded bg-[#F0F0F0] hover:bg-[#70A29C] hover:text-white"
             >
               <h3 className="text-3xl font-semibold hover:font-bold">{card.title}</h3>
-              <p className="text-gray-600 mb-2 ">{card.category}</p>
-              <p className="text-gray-900 mb-2 font-semibold">{card.description}</p>
+              <div className="text-gray-600 mb-2 ">{card.category}</div>
+              <div className="text-gray-900 mb-2 font-semibold">{card.description}</div>
               <a href={card.CardCTA.link} className="text-blue-500 hover:underline">
                 {card.CardCTA.text}
               </a>
