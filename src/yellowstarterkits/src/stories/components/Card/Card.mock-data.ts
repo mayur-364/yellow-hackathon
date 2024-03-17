@@ -1,5 +1,4 @@
-import { CardsProps } from '../../../components/Card/Card';
-const defaultData: CardsProps = {
+const defaultData: any = {
   rendering: { componentName: 'Cards', dataSource: 'dummydataSource' },
   fields: {
     numberOfCards: '5',
