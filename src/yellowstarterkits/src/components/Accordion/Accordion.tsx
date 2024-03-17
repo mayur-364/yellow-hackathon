@@ -30,7 +30,7 @@ export const Accordion = (props: AccordionProps): JSX.Element => {
     setActiveIndex(activeIndex === index ? null : index);
   };
   return (
-    <div className="lg:container">
+    <div className="lg:container mb:16">
       <h2 className="text-2xl font-semibold mb-4 text-gray-800 text-center">
         <Text field={props?.fields?.headlineText} />
       </h2>
