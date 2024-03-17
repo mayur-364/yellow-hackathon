@@ -36,7 +36,7 @@ const Banner = ({ fields }: BannerProps): JSX.Element => {
             <h1 className="lg:text-6xl text-3xl font-bold mb-4">
               <RichText field={fields?.headlineText} />
             </h1>
-            <div className="lg:text-lg mb-2 lg:w-7/12 mb-5">
+            <div className="lg:text-lg mb-2 lg:w-7/12">
               <RichText field={fields?.body} />
             </div>
             <Link

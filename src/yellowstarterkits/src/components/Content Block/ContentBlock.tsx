@@ -9,7 +9,6 @@ import {
   Link,
   withDatasourceCheck,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-
 type ContentBlockProps = ComponentProps & {
   fields: {
     headlineText: Field<string>;
@@ -22,12 +21,12 @@ export const ContentBlock = (props: ContentBlockProps): JSX.Element => {
   const { fields } = props;
   return (
     <>
-      <div className="container grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="container grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
         <div className="text-left p-4">
-          <h1 className="text-2xl font-bold  text-teal-400">
+          <h2 className="text-3xl font-bold  text-teal-400 pb-2">
             <Text field={fields?.headlineText} />
-          </h1>
-          <div className="text-gray-700">
+          </h2>
+          <div className="text-gray-700 pb-2">
             <RichText field={fields?.body} />
           </div>
           {/* <a
@@ -35,7 +34,10 @@ export const ContentBlock = (props: ContentBlockProps): JSX.Element => {
             href="#"
             role="button"
           > */}
-          <Link field={fields?.cta1Link as LinkField}></Link>
+          <Link
+            field={fields?.cta1Link as LinkField}
+            className="bg-primary-blueshade-100 text-white px-6 py-1 hover:bg-primary-blueshade-200  transition duration-300"
+          ></Link>
           {/* </a> */}
         </div>
         <div className="p-4 bg-white text-right">

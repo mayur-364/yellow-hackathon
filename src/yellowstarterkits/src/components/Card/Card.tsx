@@ -11,7 +11,6 @@ import {
   Field,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
-
 type GenericCardsProps = ComponentProps & {
   fields: {
     cards: Card[];
@@ -20,7 +19,6 @@ type GenericCardsProps = ComponentProps & {
     numberOfCards: string;
   };
 };
-
 type Card = {
   fields: {
     headlineText: TextField;
@@ -29,16 +27,14 @@ type Card = {
     body: Field<string>;
   };
 };
-
 export const Card = (props: GenericCardsProps): JSX.Element => {
   const { fields } = props;
   //const numCards = parseInt(fields?.numberOfCards || '0');
   //const displayCards = fields?.cards.slice(0, numCards);
-
   return (
-    <div className="lg:container bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-6">
+    <div className="bg-gray-100 pt-14 pb-4 mb-14">
+      <div className="text-center lg:container">
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">
           <Text field={fields?.headlineText} />
         </h1>
         <div className="text-lg text-gray-600">
@@ -67,5 +63,4 @@ export const Card = (props: GenericCardsProps): JSX.Element => {
     </div>
   );
 };
-
 export default withDatasourceCheck()(Card);

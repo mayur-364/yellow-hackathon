@@ -40,7 +40,7 @@ export const Tab = ({ fields }: TabProps): JSX.Element => {
       </div>
       <div className="grid lg:grid-cols-4 gap-4 mt-4">
         {/* Render cards based on the selected category */}
-        {fields.cards
+        {fields?.cards
           .filter((card) => selectedCategory === 'All' || card.category === selectedCategory)
           .map((card) => (
             <div
@@ -50,8 +50,8 @@ export const Tab = ({ fields }: TabProps): JSX.Element => {
               <h3 className="text-3xl font-semibold hover:font-bold">{card.title}</h3>
               <div className="text-gray-600 mb-2 ">{card.category}</div>
               <div className="text-gray-900 mb-2 font-semibold">{card.description}</div>
-              <a href={card.CardCTA.link} className="text-blue-500 hover:underline">
-                {card.CardCTA.text}
+              <a href={card?.CardCTA?.link} className="text-blue-500 hover:underline">
+                {card?.CardCTA?.text}
               </a>
             </div>
           ))}

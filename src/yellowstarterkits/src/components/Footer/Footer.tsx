@@ -50,48 +50,20 @@ export const Footer = (props: FooterProps): JSX.Element => {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col-reverse md:flex-row justify-between">
-          {/* <div>
-            {props.fields?.socialLinks?.map((item: any, index: any, ary: any) => (
-              <>
-                <span>
-                  <Link field={item?.fields?.link as LinkField}></Link>
-                </span>
-                {index != ary.length - 1 && <span> | </span>}
-              </>
-            ))}
-          </div> */}
+        <div className="flex flex-col-reverse md:flex-row justify-end">
           <div className="flex gap-x-2 mr-1">
-            {props.fields?.externalLink?.map((item: any, index: any, ary: any) => (
-              <>
-                <span>
-                  <Link field={item?.fields?.link as LinkField}></Link>
-                </span>
-                {index != ary.length - 1 && <span> | </span>}
-              </>
-            ))}
             <a href="/">
               <FaFacebook />
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/hztldigital/">
               <FaInstagram />
             </a>
-            <a href="/">
+            <a href="https://www.linkedin.com/company/30574460/">
               <FaLinkedin />
             </a>
             <a href="/">
               <FaTwitter />
             </a>
-            {/* <div className="pt-6 mt-12 border-t border-gray-800">
-              <div className="text-center sm:flex sm:justify-between sm:text-left">
-                <div className="text-sm text-gray-400">
-                  <RichText className="contentDescription" field={props?.fields?.description} />
-                </div>
-                <div className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                  <RichText className="contentDescription" field={props?.fields?.copyRightText} />
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
